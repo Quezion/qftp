@@ -1,0 +1,13 @@
+Author's note: This was the assignment for which QFTP was created.
+
+---~~~=== Assignment ===~~~---
+
+Implement just enough of https://www.ietf.org/rfc/rfc959.txt (original FTP RFC) to be able to do the following flow:
+
+Login, mkdir a directory, cd into the directory, PUT a file, list the directory and GET the file back.
+
+Constraints: Do not use a FTP library (if any). Concurrency is optional. Code should be commented with references back to RFC sections.
+
+We will use the built-in OS-X/Linux(centos/ubuntu) ftp client to test the above flow. We will only test the happy path as described above.
+
+-srp 
