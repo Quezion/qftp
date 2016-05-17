@@ -1,0 +1,43 @@
+220-FileZilla Server 0.9.57 beta
+220 Test server to reverse engineer for Clojure FTP server
+  AUTH TLS
+502 Explicit TLS authentication not allowed
+  AUTH SSL
+502 Explicit TLS authentication not allowed
+  USER Quest
+331 Password required for quest
+  PASS abadpw
+230 Logged on
+  SYST
+215 UNIX emulated by FileZilla
+  FEAT
+211-Features:
+ MDTM
+ REST STREAM
+ SIZE
+ MLST type*;size*;modify*;
+ MLSD
+ UTF8
+ CLNT
+ MFMT
+ EPSV
+ EPRT
+211 End
+  PWD
+257 "/" is current directory.
+  TYPE I
+200 Type set to I
+  PASV
+227 Entering Passive Mode (192,168,1,27,226,109)
+  MLSD
+150 Opening data channel for directory listing of "/"
+226 Successfully transferred "/"
+  CWD Warframe
+250 CWD successful. "/Warframe" is current directory.
+  PWD
+257 "/Warframe" is current directory.
+  PASV
+227 Entering Passive Mode (192,168,1,27,205,124)
+  MLSD
+150 Opening data channel for directory listing of "/Warframe"
+226 Successfully transferred "/Warframe"

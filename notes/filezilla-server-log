@@ -1,0 +1,79 @@
+FileZilla Server 0.9.57 beta
+Copyright 2001-2016 by Tim Kosse (tim.kosse@filezilla-project.org)
+https://filezilla-project.org/
+Connecting to server localhost:14147...
+Connected, waiting for authentication
+Logged on
+You appear to be behind a NAT router. Please configure the passive mode settings and forward a range of ports in your router.
+Warning: FTP over TLS is not enabled, users cannot securely log in.
+(000001)5/12/2016 18:04:26 PM - (not logged in) (127.0.0.1)> Connected on port 21, sending welcome message...
+(000001)5/12/2016 18:04:26 PM - (not logged in) (127.0.0.1)> 220-FileZilla Server 0.9.57 beta
+(000001)5/12/2016 18:04:26 PM - (not logged in) (127.0.0.1)> 220 Test server to reverse engineer for Clojure FTP server
+(000001)5/12/2016 18:04:32 PM - (not logged in) (127.0.0.1)> user quest
+(000001)5/12/2016 18:04:32 PM - (not logged in) (127.0.0.1)> 331 Password required for quest
+(000001)5/12/2016 18:04:35 PM - (not logged in) (127.0.0.1)> pass ***********
+(000001)5/12/2016 18:04:35 PM - quest (127.0.0.1)> 230 Logged on
+(000001)5/12/2016 18:04:38 PM - quest (127.0.0.1)> pwd
+(000001)5/12/2016 18:04:38 PM - quest (127.0.0.1)> 257 "/" is current directory.
+(000001)5/12/2016 18:04:48 PM - quest (127.0.0.1)> cwd Warframe
+(000001)5/12/2016 18:04:48 PM - quest (127.0.0.1)> 250 CWD successful. "/Warframe" is current directory.
+(000001)5/12/2016 18:05:12 PM - quest (127.0.0.1)> mkdir test
+(000001)5/12/2016 18:05:12 PM - quest (127.0.0.1)> 500 Syntax error, command unrecognized.
+(000001)5/12/2016 18:05:39 PM - quest (127.0.0.1)> mkdir
+(000001)5/12/2016 18:05:39 PM - quest (127.0.0.1)> 500 Syntax error, command unrecognized.
+(000001)5/12/2016 18:05:40 PM - quest (127.0.0.1)> help
+(000001)5/12/2016 18:05:40 PM - quest (127.0.0.1)> 214-The following commands are recognized:
+(000001)5/12/2016 18:05:40 PM - quest (127.0.0.1)>    ABOR   ADAT   ALLO   APPE   AUTH   CDUP   CLNT   CWD
+(000001)5/12/2016 18:05:40 PM - quest (127.0.0.1)>    DELE   EPRT   EPSV   FEAT   HASH   HELP   LIST   MDTM
+(000001)5/12/2016 18:05:40 PM - quest (127.0.0.1)>    MFMT   MKD    MLSD   MLST   MODE   NLST   NOOP   NOP
+(000001)5/12/2016 18:05:40 PM - quest (127.0.0.1)>    OPTS   P@SW   PASS   PASV   PBSZ   PORT   PROT   PWD
+(000001)5/12/2016 18:05:40 PM - quest (127.0.0.1)>    QUIT   REST   RETR   RMD    RNFR   RNTO   SITE   SIZE
+(000001)5/12/2016 18:05:40 PM - quest (127.0.0.1)>    STOR   STRU   SYST   TYPE   USER   XCUP   XCWD   XMKD
+(000001)5/12/2016 18:05:40 PM - quest (127.0.0.1)>    XPWD   XRMD
+(000001)5/12/2016 18:05:40 PM - quest (127.0.0.1)> 214 Have a nice day.
+(000001)5/12/2016 18:05:50 PM - quest (127.0.0.1)> MKD test
+(000001)5/12/2016 18:05:50 PM - quest (127.0.0.1)> 257 "/Warframe/test" created successfully
+(000001)5/12/2016 18:05:55 PM - quest (127.0.0.1)> MKD test
+(000001)5/12/2016 18:05:55 PM - quest (127.0.0.1)> 550 Directory already exists
+(000001)5/12/2016 18:06:27 PM - quest (127.0.0.1)> PSV
+(000001)5/12/2016 18:06:27 PM - quest (127.0.0.1)> 500 Syntax error, command unrecognized.
+(000001)5/12/2016 18:06:33 PM - quest (127.0.0.1)> PSVR
+(000001)5/12/2016 18:06:33 PM - quest (127.0.0.1)> 500 Syntax error, command unrecognized.
+(000001)5/12/2016 18:06:35 PM - quest (127.0.0.1)> PSRV
+(000001)5/12/2016 18:06:35 PM - quest (127.0.0.1)> 500 Syntax error, command unrecognized.
+(000001)5/12/2016 18:06:40 PM - quest (127.0.0.1)> PSVM
+(000001)5/12/2016 18:06:40 PM - quest (127.0.0.1)> 500 Syntax error, command unrecognized.
+(000001)5/12/2016 18:07:30 PM - quest (127.0.0.1)>  PASV
+(000001)5/12/2016 18:07:41 PM - quest (127.0.0.1)> test
+(000001)5/12/2016 18:07:41 PM - quest (127.0.0.1)> 500 Syntax error, command unrecognized.
+(000001)5/12/2016 18:09:41 PM - quest (127.0.0.1)> 421 Connection timed out.
+(000001)5/12/2016 18:09:41 PM - quest (127.0.0.1)> disconnected.
+(000002)5/12/2016 18:13:15 PM - (not logged in) (127.0.0.1)> Connected on port 21, sending welcome message...
+(000002)5/12/2016 18:13:15 PM - (not logged in) (127.0.0.1)> 220-FileZilla Server 0.9.57 beta
+(000002)5/12/2016 18:13:15 PM - (not logged in) (127.0.0.1)> 220 Test server to reverse engineer for Clojure FTP server
+(000002)5/12/2016 18:13:16 PM - (not logged in) (127.0.0.1)> user quest
+(000002)5/12/2016 18:13:16 PM - (not logged in) (127.0.0.1)> 331 Password required for quest
+(000002)5/12/2016 18:13:18 PM - (not logged in) (127.0.0.1)> pass ***********
+(000002)5/12/2016 18:13:18 PM - quest (127.0.0.1)> 230 Logged on
+(000002)5/12/2016 18:13:22 PM - quest (127.0.0.1)> pwd
+(000002)5/12/2016 18:13:22 PM - quest (127.0.0.1)> 257 "/" is current directory.
+(000002)5/12/2016 18:13:24 PM - quest (127.0.0.1)> cd Warframe
+(000002)5/12/2016 18:13:24 PM - quest (127.0.0.1)> 500 Syntax error, command unrecognized.
+(000002)5/12/2016 18:13:30 PM - quest (127.0.0.1)> cwd Warframe
+(000002)5/12/2016 18:13:30 PM - quest (127.0.0.1)> 250 CWD successful. "/Warframe" is current directory.
+(000002)5/12/2016 18:13:45 PM - quest (127.0.0.1)> mkd test2
+(000002)5/12/2016 18:13:45 PM - quest (127.0.0.1)> 257 "/Warframe/test2" created successfully
+(000002)5/12/2016 18:13:47 PM - quest (127.0.0.1)> pwd
+(000002)5/12/2016 18:13:47 PM - quest (127.0.0.1)> 257 "/Warframe" is current directory.
+(000002)5/12/2016 18:15:47 PM - quest (127.0.0.1)> 421 Connection timed out.
+(000002)5/12/2016 18:15:47 PM - quest (127.0.0.1)> disconnected.
+(000003)5/12/2016 18:17:08 PM - (not logged in) (127.0.0.1)> Connected on port 21, sending welcome message...
+(000003)5/12/2016 18:17:08 PM - (not logged in) (127.0.0.1)> 220-FileZilla Server 0.9.57 beta
+(000003)5/12/2016 18:17:08 PM - (not logged in) (127.0.0.1)> 220 Test server to reverse engineer for Clojure FTP server
+(000003)5/12/2016 18:17:10 PM - (not logged in) (127.0.0.1)> user quest
+(000003)5/12/2016 18:17:10 PM - (not logged in) (127.0.0.1)> 331 Password required for quest
+(000003)5/12/2016 18:17:11 PM - (not logged in) (127.0.0.1)> pass ***********
+(000003)5/12/2016 18:17:11 PM - quest (127.0.0.1)> 230 Logged on
+(000003)5/12/2016 18:17:17 PM - quest (127.0.0.1)> cwd teaser
+(000003)5/12/2016 18:17:17 PM - quest (127.0.0.1)> 550 CWD failed. "/teaser": directory not found.
+(000003)5/12/2016 18:17:20 PM - quest (127.0.0.1)> disconnected.
