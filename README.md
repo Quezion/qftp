@@ -1,6 +1,6 @@
-# qftp
+# QFTP
 
-An FTP server written in a week.
+A prototype FTP server. Minimally featured, but supports several basic FTP commands. See [router.clj](src/qftp/router.clj) for a list.
 
 ## Installation
 
